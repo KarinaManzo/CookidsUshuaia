@@ -1,0 +1,14 @@
+@mixin cookids($ancho) {
+    color: crimson;
+    padding-left: 20px;
+    background-color: #f7bfe0; 
+    border: 1px solid #f1c40f;
+    width: $ancho ;
+    text-align: justify;
+    font-family: 'Gaegu';
+    font-size: $size8;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/* Fuentes */
+@font-face {
+  font-family: "Gaegu";
+  src: url("../Gaegu/Gaegu-Bold.ttf");
+  src: local("Gaegu");
+  src: url("../Gaegu/Gaegu-Bold.ttf#Gaegu") format("truetype");
+  src: url("../Gaegu/Gaegu-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GaeguRegular";
+  src: url("../Gaegu/Gaegu-Regular.ttf");
+  src: local("Gaegu Regular");
+  src: url("../Gaegu/Gaegu-Regular.ttf#GaeguRegular") format("truetype");
+  src: url("../Gaegu/Gaegu-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GaeguLuz";
+  src: url("../Gaegu/Gaegu-Light.ttf");
+  src: local("Gaegu Luz");
+  src: url("../Gaegu/Gaegu-Light.ttf#GaeguLuz") format("truetype");
+  src: url("../Gaegu/Gaegu-Light.ttf") format("truetype");
+}
+/* Tamaño Fuentes*/
+/* Navegable */
+.navegable {
+  width: 100%;
+  margin: 40px auto;
+  position: relative;
+  left: 10px;
+  bottom: 230px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.navegable .nav-list {
+  background-color: #fa729f;
+  border: double black;
+  color: black;
+  font-family: "Gaegu";
+}
+.navegable .nav-list .nav-link {
+  color: black;
+}
+.navegable .nav-list .nav-link:hover {
+  color: #FF0000;
+}
+@media screen and (max-width: 960px) {
+  .navegable {
+    position: relative;
+    left: 80px;
+  }
+}
+/*Submenu*/
+.dropdown-menu {
+  background-color: #ffc6c7;
+  font-size: 18px;
+}
+
+/* Navegable Final*/
+.navegable2 {
+  width: 100%;
+  margin: 40px auto;
+  position: relative;
+  left: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.navegable2 .nav-list {
+  background-color: #fa729f;
+  border: double black;
+  padding: 10px 16px;
+  color: black;
+  font-family: "Gaegu";
+}
+.navegable2 .nav-list .nav-link {
+  color: black;
+}
+.navegable2 .nav-list .nav-link:hover {
+  color: #FF0000;
+}
+
+.redes {
+  text-align: right;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+@media screen and (max-width: 960px) {
+  .redes {
+    position: relative;
+    right: 15px;
+  }
+}
+
+.catalogo .img-catalogo .productos:hover, .kitsgral .productos:hover, .galles .misgalles:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.nuestrasfotos:hover, .fotos .sesionazu .fotosazu:hover {
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+}
+
+/* Body*/
+body {
+  background-image: url("../imagenes/Fondo.jpg");
+  background-size: cover;
+}
+
+/* Icono */
+.icono {
+  margin: 50px 50px;
+  position: relative;
+  height: 200px;
+}
+@media screen and (max-width: 960px) {
+  .icono {
+    position: relative;
+    bottom: 30px;
+    height: 120px;
+  }
+}
+
+/* configuracion de textos Pág. Principal*/
+.inicio {
+  position: relative;
+  bottom: 120px;
+  font-family: "Gaegu";
+  font-size: 25px;
+  font-style: italic;
+  color: black;
+  padding-left: 15px;
+}
+
+/* Carusel*/
+.carusel {
+  position: relative;
+  bottom: 100px;
+  padding-left: 300px;
+}
+.carusel .carousel-inner {
+  box-shadow: 10px 5px 5px gray;
+}
+
+.subtitulo {
+  color: black;
+  padding-left: 30px;
+  font-size: 23px;
+  font-family: "GaeguRegular";
+  text-align: left;
+  text-decoration: underline;
+}
+
+.texto {
+  color: black;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: "GaeguLuz";
+  text-align: left;
+}
+
+.receta {
+  padding-left: 100px;
+}
+.receta .detalle {
+  color: black;
+  list-style: none;
+  font-size: 23px;
+  font-family: "Gaegu";
+  background-size: contain;
+  width: fit-content;
+  display: grid;
+  background-color: #faeee7;
+}
+
+.galles {
+  padding-left: 300px;
+}
+.galles .misgalles {
+  box-shadow: 10px 5px 5px gray;
+  transition: all 2s;
+}
+@media screen and (max-width: 960px) {
+  .galles .misgalles {
+    width: 350px;
+    height: 350px;
+  }
+}
+.pregunta1 {
+  color: crimson;
+  font-size: 27px;
+  font-family: "GaeguRegular";
+  background-size: 10px;
+  background-color: #f7bfe0;
+  width: 14em;
+  border: 1px solid #f1c40f;
+}
+
+.vamos {
+  color: #ce0f3d;
+  font-size: 40px;
+  font-family: "Gaegu";
+  text-align: center;
+}
+
+/*Config. Kits*/
+.kitsgral {
+  position: relative;
+  bottom: 100px;
+}
+.kitsgral .titulo {
+  padding: 20px 35px;
+}
+.kitsgral .kits {
+  color: #1ca360;
+  background-color: #ffc6c7;
+  width: fit-content;
+  text-align: center;
+  font-family: "Gaegu";
+  font-size: 32px;
+  font-style: italic;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+.kitsgral .descripcion {
+  color: black;
+  font-size: 25px;
+  font-family: "GaeguRegular";
+}
+.kitsgral .productos {
+  position: relative;
+  left: 100px;
+  box-shadow: 10px 5px 5px gray;
+  width: 430px;
+  height: 430px;
+  transition: all 2s;
+}
+.kitsgral .especial {
+  color: black;
+  font-size: 22px;
+  font-family: "GaeguRegular";
+}
+.recordatorio {
+  color: crimson;
+  font-size: 22px;
+  font-family: "Gaegu";
+  text-decoration: underline;
+  background-color: #ffe65d;
+  width: 55em;
+}
+@media screen and (max-width: 960px) {
+  .recordatorio {
+    width: 90%;
+  }
+}
+
+/*Configuracion Catalogo*/
+.titulocatalogo {
+  padding: 20px 35px;
+}
+.titulocatalogo .kitscatalogo {
+  color: #1ca360;
+  background-color: #ffc6c7;
+  width: fit-content;
+  text-align: center;
+  font-family: "Gaegu";
+  font-size: 32px;
+  font-style: italic;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.catalogo .img-catalogo .productos {
+  position: relative;
+  left: 100px;
+  box-shadow: 10px 5px 5px gray;
+  width: 430px;
+  height: 430px;
+  transition: all 2s;
+}
+/* Config. texto Trabajos*/
+.trabajos {
+  position: relative;
+  bottom: 100px;
+}
+
+.cookidbar {
+  color: crimson;
+  padding-left: 20px;
+  background-color: #f7bfe0;
+  border: 1px solid #f1c40f;
+  width: 6em;
+  text-align: justify;
+  font-family: "Gaegu";
+  font-size: 35px;
+  font-style: italic;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.cookidbar1 {
+  color: crimson;
+  padding-left: 20px;
+  background-color: #f7bfe0;
+  border: 1px solid #f1c40f;
+  width: 9em;
+  text-align: justify;
+  font-family: "Gaegu";
+  font-size: 35px;
+  font-style: italic;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+/* Sesion Fotos*/
+.fotos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.fotos .sesionazu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+  position: relative;
+  left: 150px;
+}
+@media screen and (max-width: 960px) {
+  .fotos .sesionazu {
+    display: grid;
+    grid-template-columns: 30% 30%;
+  }
+}
+.fotos .sesionazu .fotosazu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 1px solid #f1c40f;
+  box-shadow: 10px 5px 5px gray;
+  transition: all 0.5s;
+}
+/* Config. texto pag. Nosotros*/
+.ushuaia {
+  position: relative;
+  bottom: 150px;
+  color: black;
+  background-color: #f7bfe0;
+  width: 8em;
+  font-family: "Gaegu";
+  font-size: 35px;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid #f1c40f;
+}
+
+.nosotros {
+  position: relative;
+  bottom: 75px;
+  color: black;
+  list-style: none;
+  font-size: 23px;
+  font-family: "Gaegu";
+  background-size: contain;
+  width: fit-content;
+  display: grid;
+  padding-left: 150px;
+}
+.nosotros .nosotros1 {
+  position: relative;
+  top: 20px;
+  list-style: none;
+  padding-left: 50px;
+  background-color: #faeee7;
+}
+@media screen and (max-width: 960px) {
+  .nosotros .nosotros1 {
+    position: relative;
+    right: 50px;
+  }
+}
+
+.historia {
+  position: relative;
+  bottom: 150px;
+  color: black;
+  font-family: "GaeguLuz";
+  font-size: 24px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.historia1 {
+  position: relative;
+  bottom: 50px;
+  color: black;
+  font-family: "GaeguLuz";
+  font-size: 24px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.nuestrasfotos {
+  position: relative;
+  top: 50px;
+  left: 150px;
+  box-shadow: 10px 5px 5px gray;
+  transition: all 2s;
+}
+/* Configuracion página 404*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gaegu";
+}
+
+h1 {
+  margin: 0;
+  font-size: 150px;
+}
+
+.error-mensaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.eror-mensaje-container {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 150px;
+}
+
+p {
+  font-size: 40px;
+}
+
+.error-container {
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  top: 200px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

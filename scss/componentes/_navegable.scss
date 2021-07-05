@@ -1,0 +1,83 @@
+/* Navegable */
+
+.navegable {
+    width: 100%;
+    margin: 40px auto;
+    position: relative;
+    left: 10px;
+    bottom: 230px;
+    display: flex;
+    justify-content: space-around;
+    font-size: $size5;
+
+    .nav-list {
+        background-color: #fa729f;
+        border: double black;
+        color: black;
+        font-family: 'Gaegu';
+       
+
+        .nav-link {
+            color: black;
+
+            &:hover {
+                color: #FF0000;                
+            }            
+
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        position: relative;
+        left: 80px;
+
+    }
+
+    @media screen and (max-width: 400px) {
+        
+    }
+
+    
+}
+
+
+/*Submenu*/
+
+.dropdown-menu {
+    background-color: #ffc6c7;
+    font-size: $size1;
+}
+
+/* Navegable Final*/
+
+.navegable2 {
+    width: 100%;
+    margin: 40px auto;
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: $size5;
+
+    .nav-list {
+        background-color: #fa729f;
+        border: double black;
+        padding: 10px 16px;
+        color: black;
+        font-family: 'Gaegu';
+       
+
+        .nav-link {
+            color: black;
+
+            &:hover {
+                color: #FF0000;                
+            }            
+
+        }
+    }
+
+    
+}
+
+
