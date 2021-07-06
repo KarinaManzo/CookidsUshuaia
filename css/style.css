@@ -25,17 +25,31 @@
 /* Navegable */
 .navegable {
   width: 100%;
+<<<<<<< HEAD
   margin: 40px auto;
   position: relative;
   left: 10px;
   bottom: 230px;
+=======
+  margin: 30px auto;
+  position: relative;
+  left: 10px;
+  top: 5px;
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   display: flex;
   justify-content: space-around;
   font-size: 25px;
 }
 .navegable .nav-list {
+<<<<<<< HEAD
   background-color: #fa729f;
   border: double black;
+=======
+  /*position: relative;*/
+  background-color: #fa729f;
+  border: double black;
+  padding: 10px 16px;
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   font-family: "Gaegu";
 }
@@ -45,18 +59,23 @@
 .navegable .nav-list .nav-link:hover {
   color: #FF0000;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .navegable {
     position: relative;
     left: 80px;
   }
 }
+=======
+
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 /*Submenu*/
 .dropdown-menu {
   background-color: #ffc6c7;
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 /* Navegable Final*/
 .navegable2 {
   width: 100%;
@@ -81,12 +100,15 @@
   color: #FF0000;
 }
 
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 .redes {
   text-align: right;
   position: fixed;
   bottom: 0px;
   right: 0px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .redes {
     position: relative;
@@ -95,6 +117,10 @@
 }
 
 .catalogo .img-catalogo .productos:hover, .kitsgral .productos:hover, .galles .misgalles:hover {
+=======
+
+.productos:hover, .galles .misgalles:hover {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   transform: scale(1.2);
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -116,11 +142,18 @@
 /* Body*/
 body {
   background-image: url("../imagenes/Fondo.jpg");
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 }
 
 /* Icono */
 .icono {
+<<<<<<< HEAD
   margin: 50px 50px;
   position: relative;
   height: 200px;
@@ -137,17 +170,46 @@ body {
 .inicio {
   position: relative;
   bottom: 120px;
+=======
+  margin: auto;
+  width: 40%;
+  min-width: 1360px;
+  max-width: 330px;
+  position: relative;
+  height: auto;
+  min-height: 100px;
+  max-height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* configuracion de textos Pág. Principal*/
+.presentacion {
+  padding-left: 25px;
+}
+
+.inicio {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   font-family: "Gaegu";
   font-size: 25px;
   font-style: italic;
   color: black;
   padding-left: 15px;
 }
+<<<<<<< HEAD
 
 /* Carusel*/
 .carusel {
   position: relative;
   bottom: 100px;
+=======
+.inicio .parrafo {
+  padding-bottom: 50px;
+}
+
+/* Carusel*/
+.carusel {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   padding-left: 300px;
 }
 .carusel .carousel-inner {
@@ -192,12 +254,15 @@ body {
   box-shadow: 10px 5px 5px gray;
   transition: all 2s;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .galles .misgalles {
     width: 350px;
     height: 350px;
   }
 }
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 .pregunta1 {
   color: crimson;
   font-size: 27px;
@@ -216,6 +281,7 @@ body {
 }
 
 /*Config. Kits*/
+<<<<<<< HEAD
 .kitsgral {
   position: relative;
   bottom: 100px;
@@ -224,6 +290,13 @@ body {
   padding: 20px 35px;
 }
 .kitsgral .kits {
+=======
+.titulo {
+  padding: 20px 35px;
+}
+
+.kits {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: #1ca360;
   background-color: #ffc6c7;
   width: fit-content;
@@ -234,12 +307,30 @@ body {
   font-variant: small-caps;
   text-decoration: underline;
 }
+<<<<<<< HEAD
 .kitsgral .descripcion {
+=======
+
+.descripcion {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   font-size: 25px;
   font-family: "GaeguRegular";
 }
+<<<<<<< HEAD
 .kitsgral .productos {
+=======
+
+.catalogo {
+  padding: 20px 35px;
+}
+
+.img-catalogo {
+  transition: all 0.5s;
+}
+
+.productos {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   position: relative;
   left: 100px;
   box-shadow: 10px 5px 5px gray;
@@ -247,11 +338,19 @@ body {
   height: 430px;
   transition: all 2s;
 }
+<<<<<<< HEAD
 .kitsgral .especial {
+=======
+.especial {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   font-size: 22px;
   font-family: "GaeguRegular";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 .recordatorio {
   color: crimson;
   font-size: 22px;
@@ -260,6 +359,7 @@ body {
   background-color: #ffe65d;
   width: 55em;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .recordatorio {
     width: 90%;
@@ -302,6 +402,15 @@ body {
   background-color: #f7bfe0;
   border: 1px solid #f1c40f;
   width: 6em;
+=======
+
+/* Config. texto Trabajos*/
+.cookidbar {
+  color: crimson;
+  background-color: #f7bfe0;
+  border: 1px solid #f1c40f;
+  width: 4em;
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   text-align: justify;
   font-family: "Gaegu";
   font-size: 35px;
@@ -312,7 +421,10 @@ body {
 
 .cookidbar1 {
   color: crimson;
+<<<<<<< HEAD
   padding-left: 20px;
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   background-color: #f7bfe0;
   border: 1px solid #f1c40f;
   width: 9em;
@@ -337,12 +449,15 @@ body {
   position: relative;
   left: 150px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .fotos .sesionazu {
     display: grid;
     grid-template-columns: 30% 30%;
   }
 }
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 .fotos .sesionazu .fotosazu {
   display: flex;
   justify-content: space-evenly;
@@ -353,8 +468,11 @@ body {
 }
 /* Config. texto pag. Nosotros*/
 .ushuaia {
+<<<<<<< HEAD
   position: relative;
   bottom: 150px;
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   background-color: #f7bfe0;
   width: 8em;
@@ -366,8 +484,11 @@ body {
 }
 
 .nosotros {
+<<<<<<< HEAD
   position: relative;
   bottom: 75px;
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   list-style: none;
   font-size: 23px;
@@ -378,12 +499,16 @@ body {
   padding-left: 150px;
 }
 .nosotros .nosotros1 {
+<<<<<<< HEAD
   position: relative;
   top: 20px;
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   list-style: none;
   padding-left: 50px;
   background-color: #faeee7;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .nosotros .nosotros1 {
     position: relative;
@@ -404,6 +529,10 @@ body {
 .historia1 {
   position: relative;
   bottom: 50px;
+=======
+
+.historia {
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   color: black;
   font-family: "GaeguLuz";
   font-size: 24px;
@@ -413,7 +542,10 @@ body {
 
 .nuestrasfotos {
   position: relative;
+<<<<<<< HEAD
   top: 50px;
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   left: 150px;
   box-shadow: 10px 5px 5px gray;
   transition: all 2s;

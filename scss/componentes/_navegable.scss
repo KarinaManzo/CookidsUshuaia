@@ -2,20 +2,36 @@
 
 .navegable {
     width: 100%;
+<<<<<<< HEAD
     margin: 40px auto;
     position: relative;
     left: 10px;
     bottom: 230px;
+=======
+    margin: 30px auto;
+    position: relative;
+    left: 10px;
+    top: 5px;
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
     display: flex;
     justify-content: space-around;
     font-size: $size5;
 
     .nav-list {
+<<<<<<< HEAD
         background-color: #fa729f;
         border: double black;
         color: black;
         font-family: 'Gaegu';
        
+=======
+        /*position: relative;*/
+        background-color: #fa729f;
+        border: double black;
+        padding: 10px 16px;
+        color: black;
+        font-family: 'Gaegu';
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 
         .nav-link {
             color: black;
@@ -26,6 +42,7 @@
 
         }
     }
+<<<<<<< HEAD
 
     @media screen and (max-width: 960px) {
         position: relative;
@@ -38,6 +55,8 @@
     }
 
     
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 }
 
 
@@ -48,6 +67,7 @@
     font-size: $size1;
 }
 
+<<<<<<< HEAD
 /* Navegable Final*/
 
 .navegable2 {
@@ -81,3 +101,5 @@
 }
 
 
+=======
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac

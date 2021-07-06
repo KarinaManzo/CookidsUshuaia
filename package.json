@@ -1,11 +1,19 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
+<<<<<<< HEAD
+=======
+  "description": "",
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "description": ""
+=======
+  "license": "ISC"
+>>>>>>> 23f0ee50ab119cbe63bbe65a0e825440b45d69ac
 }
